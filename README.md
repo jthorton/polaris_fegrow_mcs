@@ -9,7 +9,7 @@ congeneric series of ligands within a target protein building on experimental st
 
 Typically, this involves the user selecting a single core molecule who's structure is preserved within in a series as the reference and new r-groups and linkers are built 
 and refined while holding the core fixed. This however can result in the core being very small to ensure it overlaps with an entire series of diverse ligands. In this case 
-it might be better to have the core structure automatically derived for each target ligand to be built as the maximum common substructure (mcs) between the reference and target to
+it might be better to have the core structure automatically derived for each target ligand to be built as the maximum common substructure (MCS) between the reference and target to
 ensure we use as much of the experimental structural information as possible. 
 
 We can then extend this idea to cases where we have multiple reference molecules, now rather than having to extract a core for each reference we can use the MCS overlap to 
